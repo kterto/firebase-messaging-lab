@@ -9,8 +9,7 @@ admin.initializeApp({
 // device token
 // This registration token comes from the client FCM SDKs.
 // You can get it from the client app when the user registers for notifications.
-const registrationToken =
-  "ffeD-w8iQseHoksBsjmGQD:APA91bGBXa7ghjrbxuAjDQdA-qiogElPS3U-7re3ZuOzPXSVQ93-CcaVOj8TD9t1RSlC7bER3iKmwZgelNY5vv8xmyq6-d56Tedq7vszfpgzVVbWPkv5EFg";
+const registrationToken = `${process.env.REGISTRATION_TOKEN}`;
 
 const message = {
   token: registrationToken,
