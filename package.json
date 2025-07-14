@@ -1,0 +1,15 @@
+{
+  "name": "firebase-messaging-lab",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "send-message": "node --env-file=.env index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kainã Terto",
+  "license": "ISC",
+  "description": "Simple app to send FCM messages with Firebase Admin SDK",
+  "dependencies": {
+    "firebase-admin": "^13.4.0"
+  }
+}
